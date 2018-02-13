@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
   <version>${BUILD_NUMBER}</version>
+  <groupId>com.hobsons.radius.qa</groupId>
+    <artifactId>RadiusQAAutomation</artifactId>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -27,7 +27,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.mycompany.app.App</mainClass>
+              <mainClass>cmi.app.App</mainClass>
             </manifest>
           </archive>
         </configuration>
