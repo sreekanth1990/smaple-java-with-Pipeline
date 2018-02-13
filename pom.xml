@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <packaging>jar</packaging>
   <version>${BUILD_NUMBER}</version>
-  <groupId>com.hobsons.radius.qa</groupId>
-    <artifactId>RadiusQAAutomation</artifactId>
-  <name>my-app</name>
+  <groupId>com.example.example.qa</groupId>
+    <artifactId>exampleQAAutomation</artifactId>
+  <name>javaapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -27,7 +27,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>cmi.app.App</mainClass>
+              <mainClass>example.app.App</mainClass>
             </manifest>
           </archive>
         </configuration>
