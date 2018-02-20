@@ -10,8 +10,7 @@ pipeline {
         stage('Test') { 
             steps {
             sh 'date'
-                sh 'which mvn'
-            }
+                            }
         }
         stage('Deploy') { 
             steps {
