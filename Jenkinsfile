@@ -5,6 +5,7 @@ pipeline {
 		stage ('Compile Stage') {
 			
 				steps {
+					sh 'whereis mvn'
 				    sh 'mvn clean compile'					  
 					  }
 							}
